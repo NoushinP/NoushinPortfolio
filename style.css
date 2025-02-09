@@ -200,6 +200,19 @@ section article p {
     padding: 1%;
 }
 
+.software-container {
+    max-width: 90%;
+    width: 100%;
+    margin: 1% auto;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    background: rgb(144, 131, 145);
+    flex-direction: row;
+    padding: 1%;
+}
+
 
 .slider-wrapper .image-list {
     display:grid;
@@ -217,7 +230,7 @@ section article p {
 }
 
 .image-item:hover {    
-    box-shadow:0 8px 10px 0 rgb(255, 187, 0), 0 6px 20px 0 rgb(255, 187, 0);
+    box-shadow:0 8px 10px 0 rgb(255, 187, 0), 0 6px 20px 0 rgb(255, 0, 225);
 }
 
 h3 {
@@ -225,7 +238,7 @@ h3 {
     
 }
 
-.aboutme:hover,.Experience:hover,.Education:hover,.container,aside
+.aboutme:hover,.Experience:hover,.Education:hover,.container,aside, .software-container
 {
     box-shadow:0px 0px 17px 10px rgb(255, 187, 0);
 }
@@ -243,7 +256,7 @@ h3 {
 }
 
 h4 {
-    margin: 30px;
-    text-align: center;
+    margin: 20px;
+    text-align: left;
 }
 
