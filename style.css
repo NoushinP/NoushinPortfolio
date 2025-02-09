@@ -200,7 +200,7 @@ section article p {
     padding: 1%;
 }
 
-/* //source cite: https://www.youtube.com/watch?v=PsNaoDhzQm0&list=PLpwngcHZlPae68z_mLFNfbJFIJVJ_Zcx2//    CodingNepal, published:7months ago*/
+
 .slider-wrapper .image-list {
     display:grid;
     gap: 10px;
@@ -217,7 +217,7 @@ section article p {
 }
 
 .image-item:hover {    
-    box-shadow:0 8px 10px 0 rgba(11, 10, 10, 0.2), 0 6px 20px 0 rgba(11, 10, 10, 0.2);
+    box-shadow:0 8px 10px 0 rgb(255, 187, 0), 0 6px 20px 0 rgb(255, 187, 0);
 }
 
 h3 {
@@ -225,7 +225,7 @@ h3 {
     
 }
 
-.aboutme:hover,.Experience:hover,.Education:hover,.container
+.aboutme:hover,.Experience:hover,.Education:hover,.container,aside
 {
     box-shadow:0px 0px 17px 10px rgb(255, 187, 0);
 }
