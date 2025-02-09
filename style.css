@@ -40,6 +40,7 @@ header h1 {
 
 h2 {
     margin: 5px 5px auto;
+    color: rgb(255, 187, 0);
 }
 
 header p {
@@ -54,6 +55,9 @@ header p {
     width: 100%;  /* Adjust width to container */
     height: auto; /* Prevents stretching */
     max-width: 500px; /* Set a max width to control size */
+    box-shadow: 0pt 0pt 50pt 30pt rgb(149, 124, 153);
+    margin-bottom: 50px;
+    margin-top: 30px;
     
 }
 
@@ -62,10 +66,10 @@ body nav {
     width: 100%;
     height: 50px;
     flex-wrap: wrap;
-    background:rgb(171, 119, 178);
+    background:rgb(20, 46, 118);
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size:5pt;
   
 }
@@ -98,20 +102,20 @@ body nav ul li {
 }
 
 nav ul li a:hover {
-    color: rgb(72, 67, 72);
+    color: rgb(255, 0, 225);
 }
 
 
 .navbar ul li a{
     text-decoration: none;
-    color:black;
+    color:rgb(255, 187, 0);
 }
 
 aside {
     flex: 2 1 200px;
     width: 15%;
     height: 70%;
-    background-color: #150a37;
+    background-color: rgb(20, 46, 118);
     color: #ffffff; 
     float: left;
     display:inline-block;
@@ -123,8 +127,7 @@ aside article li {
     color:rgb(255, 255, 255);
     font-weight: bold;
     margin: 10px auto;
-    /* border: 3px solid white; */
-    /* list-style:none; */
+    border: 3px solid rgb(255, 187, 0);
 }
 
 aside li::before {
@@ -137,9 +140,9 @@ aside a {
 }
 
 aside a:hover {
-    /* background-color: fuchsia; */
+    background-color: fuchsia;
     color: rgba(255, 255, 255, 0.71);
-    box-shadow:-1px 2px 5px -1px #bd1e1e;    
+    box-shadow:-1px 2px 5px -1px rgb(255, 187, 0);    
 }
 
 main {
@@ -154,12 +157,12 @@ main section {
 }
 .aboutme {
     width: 90%;
-    background-color: rgb(255, 185, 244);
+    background-color: rgb(149, 124, 153);
     margin: auto;
 }
 
 .aboutme p {
-    margin: auto;
+    margin: 20px;
 }
 
 section article p {
@@ -169,14 +172,14 @@ section article p {
 .Experience {
     width: 90%;
     height: auto;
-    background-color: rgb(133, 109, 131);
+    background-color: rgb(111, 88, 137);
     margin: 1% auto;
 }
 
 .Education {
     width: 90%;
     height: auto;
-    background-color: rgb(158, 48, 99);
+    background-color: rgb(48, 98, 158);
     margin: 1% auto;
 }
 
@@ -188,7 +191,7 @@ section article p {
     align-items: center;
     justify-content: center;
     min-height: 30vh;
-    background: rgb(163, 153, 160);
+    background: rgb(144, 131, 145);
     flex-direction: row;
     padding: 1%;
 }
@@ -214,11 +217,11 @@ section article p {
 }
 
 h3 {
-    color: white;
+    color: rgb(50, 0, 47);
     
 }
 
-.aboutme:hover,.Experience:hover,.Education:hover
+.aboutme:hover,.Experience:hover,.Education:hover,.container
 {
     box-shadow:0px 0px 17px 10px rgba(255, 255, 255, 0.916), 0 0px 20px 0 rgb(247, 241, 241);
 }
@@ -235,6 +238,8 @@ h3 {
     text-align: center;
 }
 
-h3 {
-    color: #150a37;
+h4 {
+    margin: 30px;
+    text-align: center;
 }
+
