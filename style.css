@@ -233,12 +233,12 @@ h5 {
 
 .image-item {
     border-radius: 8%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .image-item:hover {    
-    box-shadow:0 8px 10px 0 rgb(255, 187, 0), 0 6px 20px 0 rgb(255, 0, 225);
+    box-shadow:0 8px 10px 0 rgb(25, 13, 255), 0 6px 20px 0 rgb(20, 46, 118);
 }
 
 h3 {
