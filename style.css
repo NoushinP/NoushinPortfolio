@@ -184,7 +184,7 @@ section article p {
 .Education {
     width: 90%;
     height: auto;
-    background-color: rgb(48, 98, 158);
+    background-color: rgb(20, 46, 118);
     margin: 1% auto;
 }
 
@@ -192,6 +192,7 @@ h5 {
     text-align: center;
     font-size: 12pt;
     margin: -1pt;
+    color: white;
 }
 
 .container {
@@ -241,7 +242,7 @@ h5 {
 }
 
 h3 {
-    color: rgb(50, 0, 47);
+    color: rgb(255, 255, 255);
     text-align: center;
     
 }
@@ -268,3 +269,6 @@ h4 {
     text-align: left;
 }
 
+.top {
+    color: white;
+}
