@@ -43,8 +43,9 @@ header h1 {
 }
 
 h2 {
-    margin: 5px 5px auto;
+    margin: 10px 5px auto;
     color: rgb(255, 187, 0);
+    text-align: center;
 }
 
 header p {
@@ -187,6 +188,12 @@ section article p {
     margin: 1% auto;
 }
 
+h5 {
+    text-align: center;
+    font-size: 12pt;
+    margin: -1pt;
+}
+
 .container {
     max-width: 90%;
     width: 100%;
@@ -235,6 +242,7 @@ section article p {
 
 h3 {
     color: rgb(50, 0, 47);
+    text-align: center;
     
 }
 
