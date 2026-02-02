@@ -48,6 +48,11 @@ h2 {
     text-align: center;
 }
 
+h5 {
+    font: bold;
+    font-size: larger;
+}
+
 header p {
     font-style: bold;
     text-align: center;
