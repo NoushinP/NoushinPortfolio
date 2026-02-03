@@ -262,7 +262,7 @@ h3 {
 }
 .part1 ul{
     padding: 2px;
-    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 #myPic
