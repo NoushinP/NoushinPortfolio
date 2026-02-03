@@ -48,9 +48,10 @@ h2 {
     text-align: center;
 }
 
-h5 {
+h6 {
     font: bold;
     font-size: larger;
+    color: rgb(226, 43, 198);
 }
 
 header p {
